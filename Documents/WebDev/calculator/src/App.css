@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+#root {
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #242582;
+  text-transform: uppercase;
+}
+
+.result {
+  height: 16.7vh;
+  background-color: #242582;
+  width: 100%;
+  color: #f64c72;
+
+}
+.result h1 {
+  color: #f64c72;
+  margin: 0;
+}
+
+.result p {
+  font-size: 80px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 40%;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  
+}
+
+button {
+  width: 25%;
+  height: 12.7vh;
+  font-size: 30px;
+  background-color: #2f2fa2;
+  outline: none;
+  border: 2px solid #f64c72;
+  color: #f64c72;
+
+}
+
+.description {
+  max-width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+  
+}
+@media only screen 
+and (max-device-width : 800px) {
+  .App, body {
+    height: 100vh;
+  }
+  
+  .calculator-body {
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  button {
+    height: 16.7vh;
+    font-size: 42px;
+    width: 25%;
+  }
+
+  .result {
+    height: 16.7vh;
+    
+  }
+  .result p {
+    font-size: 50px;
+    margin: -5px;
+  }
+  .description {
+  max-width: 95%;
+  margin: auto;
+  padding-bottom: 40px;
+  
+}
+}
+
+
